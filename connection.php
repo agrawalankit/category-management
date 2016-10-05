@@ -2,10 +2,10 @@
 ob_start();
 session_start();
 
-$dbHost = "localhost";
-$dbUser = "root";
-$dbPass = "";
-$dbName = "demo_admin";
+$dbHost = "#";
+$dbUser = "#";
+$dbPass = "#";
+$dbName = "#";
 
 
 $databaseLink = mysqli_connect($dbHost, $dbUser, $dbPass);
